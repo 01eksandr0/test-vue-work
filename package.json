@@ -11,10 +11,8 @@
   "dependencies": {
     "@turf/turf": "^6.5.0",
     "autoprefixer": "^10.4.19",
-    "dotenv": "^16.4.5",
     "file-saver": "^2.0.5",
     "maplibre-gl": "^4.1.3",
-    "nanoid": "^5.0.7",
     "postcss": "^8.4.38",
     "turf": "^3.0.14",
     "vue": "^3.4.21",
