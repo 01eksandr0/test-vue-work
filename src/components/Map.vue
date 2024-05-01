@@ -6,17 +6,19 @@
 import maplibregl from "maplibre-gl";
 import * as turf from "@turf/turf";
 import { mapGetters, mapActions } from "vuex";
+
 export default {
   data() {
     return {
       point1: null,
     };
   },
+
   mounted() {
     this.map = new maplibregl.Map({
       container: "map",
       style:
-        "https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+        "https://api.maptiler.com/maps/streets/style.json?key=e4Z3ncoBrKyBGp2o6Eg6",
       center: [30.524195830825278, 48.44992528158579],
       zoom: 1,
     });
